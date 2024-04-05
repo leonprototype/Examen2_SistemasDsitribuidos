@@ -1,0 +1,99 @@
+# General
+*.log
+*.csv
+*.dat
+.DS_Store
+Thumbs.db
+
+# Entorno virtual de Python
+venv/
+env/
+ENV/
+
+# Dependencias de Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Archivos y carpetas de Flask que usualmente se ignoran
+instance/
+.webassets-cache
+
+# Configuraciones específicas de desarrollo de Flask
+.flaskenv
+
+# Archivos de configuración de la aplicación React
+/node_modules/
+/build/
+.npm
+.eslintcache
+
+# Archivos .env que contienen variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos y carpetas comunes de desarrollo
+*.swp
+*.swo
+*~
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+.vscode/
+*.sln
+*.suo
+*.ntvs*
+*.njsproj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+session.vim
+/.vs
+/.vscode-server
+
+# Archivos de configuración de paquetes
+package-lock.json
+yarn.lock
+
+# dependencies
+./frontend/node_modules
+./frontend/.pnp
+./frontend/.pnp.js
+
+# testing
+./frontend/coverage
+
+# production
+./frontend/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
